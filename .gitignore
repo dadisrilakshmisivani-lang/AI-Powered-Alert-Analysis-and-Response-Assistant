@@ -1,0 +1,7 @@
+
+---
+```gitignore
+.env
+db/
+*.pkl
+__pycache__/
