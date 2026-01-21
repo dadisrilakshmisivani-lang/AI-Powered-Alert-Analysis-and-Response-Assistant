@@ -3,13 +3,17 @@
 A GenAI-powered assistant that explains cybersecurity threats in simple language using
 Retrieval-Augmented Generation (RAG).
 
-## 🔧 Requirements
-- Python 3.9+
-- Git
+## 🔧 Prerequisites
+Before running this project, ensure you have:
 
-## 📦 Installation
+- Python 3.9 or later  
+  Download from: https://www.python.org/downloads/
 
+- Git  
+  Download from: https://git-scm.com/
+
+## 📦 Python Dependencies
+Install required libraries using:
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
 pip install -r requirements.txt
+
