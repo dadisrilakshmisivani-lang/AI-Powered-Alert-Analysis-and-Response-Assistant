@@ -1,0 +1,3 @@
+Brute force attacks happen when an attacker repeatedly tries different passwords.
+Common indicator: multiple failed login attempts from the same IP or on admin accounts.
+Response steps: block IP, check logs, enable MFA.

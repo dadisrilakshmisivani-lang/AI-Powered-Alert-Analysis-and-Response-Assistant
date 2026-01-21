@@ -1,0 +1,13 @@
+Network intrusion happens when an attacker tries to gain unauthorized access to systems.
+
+Examples:
+- Brute force login attempts
+- Port scanning
+- Denial of service attacks
+- Exploiting vulnerable services
+
+If detected:
+1. Block suspicious IP
+2. Review logs
+3. Reset credentials if needed
+4. Monitor future traffic

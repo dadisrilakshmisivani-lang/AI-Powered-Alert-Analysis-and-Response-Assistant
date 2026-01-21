@@ -1,0 +1,2 @@
+Phishing tricks users into giving credentials or clicking malicious links.
+Response: report email, don't click, reset password.

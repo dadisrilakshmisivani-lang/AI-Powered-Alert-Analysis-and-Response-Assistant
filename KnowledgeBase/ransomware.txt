@@ -1,0 +1,2 @@
+Ransomware encrypts files and demands payment.
+Response: disconnect system, restore backup, do not pay ransom.

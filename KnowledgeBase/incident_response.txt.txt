@@ -1,0 +1,7 @@
+Incident response steps:
+1. Identify the attack
+2. Contain the threat
+3. Remove the malicious components
+4. Recover systems
+5. Document the incident
+6. Improve security controls
