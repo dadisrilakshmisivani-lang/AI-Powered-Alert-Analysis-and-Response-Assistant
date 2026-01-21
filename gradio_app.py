@@ -2,12 +2,16 @@ import gradio as gr
 import chromadb
 from openai import OpenAI
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 # ---------- LLM (Groq) ----------
 client = OpenAI(
-    api_key="//API Key",
-    base_url="//API Url"
+    api_key=os.getenv("GROQ_API_KEY"),
+    base_url=os.getenv("GROQ_BASE_URL")
 )
+
 
 # ---------- Vector DB ----------
 embedding_function = SentenceTransformerEmbeddingFunction(
@@ -81,3 +85,4 @@ ui = gr.Interface(
 )
 
 ui.launch()
+
